@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1 class="game-text">Rock Paper Scissor Game</h1>
+      <section class="game-text">
+        Select either rock, paper, or scissors and see if you can beat the
+        computer!
+      </section>
+      <section class="game-text">
+        Remember: “Rock breaks scissors, scissors cuts paper, paper covers
+        rock.”
+      </section>
+      <section class="result-sec hidden">
+        <section class="score">Player: [0] - Computer: [0]</section>
+        <section class="selected">Player: None - Computer: None</section>
+        <section class="result">Neutral</section>
+      </section>
+      <section class="button-container">
+        <figure class="rock">
+          <img
+            src="images/rock-1200px.jpg"
+            alt=""
+            srcset=""
+            height="50px"
+            width="50px"
+          />
+          <figcaption>
+            <input type="button" value="Rock" data-selected="rock" />
+          </figcaption>
+        </figure>
+
+        <figure class="paper">
+          <img
+            src="images/Paper_450x450.jpg"
+            alt=""
+            srcset=""
+            height="50px"
+            width="50px"
+          />
+          <figcaption>
+            <input type="button" value="Paper" />
+          </figcaption>
+        </figure>
+
+        <figure class="scissor">
+          <img
+            src="images/scirssors.jpg"
+            alt=""
+            srcset=""
+            height="50px"
+            width="50px"
+          />
+          <figcaption>
+            <input type="button" value="Scissors" />
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
